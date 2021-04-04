@@ -1,4 +1,5 @@
 App = {
+  
   web3Provider: null,
   contracts: {},
   account: '0x0',
@@ -96,8 +97,10 @@ App = {
       }
       return electionInstance.voters(App.account);
     }).then(function(hasVoted) {
+      var today = new Date();
+      var time = today.getHours();
       // Do not allow a user to vote
-      if(hasVoted) {
+      if(hasVoted||time>=15) {
         $('form').hide();
       }
       loader.hide();
@@ -108,7 +111,14 @@ App = {
   },
 
   castVote: function() {
-    var candidateId = $('#candidatesSelect').val();
+    var today = new Date();
+      var time = today.getHours();
+      if(time>=15){
+        alert("hii");
+        content.show();
+      }
+      else{
+        var candidateId = $('#candidatesSelect').val();
     App.contracts.Election.deployed().then(function(instance) {
       return instance.vote(candidateId, { from: App.account });
     }).then(function(result) {
@@ -118,6 +128,8 @@ App = {
     }).catch(function(err) {
       console.error(err);
     });
+      }
+    
   }
 };
 
