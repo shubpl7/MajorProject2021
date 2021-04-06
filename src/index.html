@@ -1,66 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Election Results</title>
+<html>
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title></title>
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Compiled and minified JavaScript -->
+ 
+</head>
+ 
+<style>
+      body {
+        display: flex;
+         min-height: 100vh;
+        flex-direction: column;
+      }
+      man{
+          height: 200px;
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-  <body>
-    <div class="container" style="width: 650px;">
-      <div class="row">
-        <div class="col-lg-12">
-          <h1 class="text-center">Election Results</h1>
-          <hr/>
-          <br/>
-          <div id="loader">
-            <p class="text-center">Loading...</p>
-          </div>
-          <div id="content" style="display: none;">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">Name</th>
-                  <th scope="col">Votes</th>
-                </tr>
-              </thead>
-              <tbody id="candidatesResults">
-              </tbody>
-            </table>
-            <hr/>
-            <form onSubmit="App.castVote(); return false;">
-              <div class="form-group">
-                <label for="candidatesSelect">Select Candidate</label>
-                <select class="form-control" id="candidatesSelect">
-                </select>
-              </div>
-              <button type="submit" class="btn btn-primary">Vote</button>
-              <hr />
-            </form>
-            <p id="accountAddress" class="text-center"></p>
-          </div>
+        }
+  main {
+    flex: 1 0 auto;
+  }
+.blacktext {
+        color: black;
+        font-size: 20px;
+}
+
+</style>
+
+<man>
+<nav style="height: 120px" >
+           <div class="nav-wrapper orange accent-3">
+            <img src="images/e-voting-logo.png" alt="" height="120" width="350" style="padding-left: 250px"; >
+           
+              <div class="brand-logo center"><h3 style="color: black">Election Commission of India</h3></div>
+
+           </div>
+        </nav>
+    </man>
+    
+<main>
+<bodyt >
+
+  
+  <div class="container">
+   
+  <table>
+    <h1>
+    
+        <thead>
+          <tr>
+              <th>Election Symbol</th>
+              <th>Party</th>
+              <th>Candidate Name</th>
+              
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            
+            <td><img src="images/bjp.png" alt=" "height="42" width="42"></td>
+            <td>Bharatiya Janata Party</td>
+            <td id="cand1">Harshil</td>
+            
+          </tr>
+          <tr>
+            <td><img src="images/cong.png" alt=" "height="42" width="42"></td>
+            <td>Indian National Congress</td>
+            <td id="cand2">Shubham</td>
+            
+          </tr>
+          <tr>
+            <td><img src="images/rsc.png" alt=" "height="42" width="42"></td>
+            <td>Nationalist Congress Party</td>
+            <td id="cand3">Dharmesh</td>
+            
+          </tr>
+          <tr>
+            <td><img src="images/shiv.png" alt=" "height="42" width="42"></td>
+             <td>Shiv Sena</td>
+            <td id="cand4">Pratik</td>
+                      </tr>
+      </h1>
+    </table>
+
+    <div ><td ><a href="voting.html"><button class="btn waves-effect waves-light">Vote
+    </button></a></td>
+</div>
+
+  </div>
+  </main>
+        </tbody>
+      </bodyt>
+
+
+         <footer style="height: 70px"; class="page-footer green darken-2">
+              <div style="text-align: center;"> Major Project by Harshil, Shubham Dharmesh and Pratik</div>
         </div>
-      </div>
-    </div>
+        </footer>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/web3.min.js"></script>
-    <script src="js/truffle-contract.js"></script>
-    <script src="js/app.js"></script>
-  </body>
+        <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script> 
+   <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+          
+<script src="https://cdn.rawgit.com/ethereum/web3.js/develop/dist/web3.js"></script>
+
+<script type="text/javascript" src="js/clist.js"></script>
 </html>
