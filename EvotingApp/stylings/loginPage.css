@@ -1,0 +1,66 @@
+html{
+       font-size: 20px;
+       font-family: 'Caveat', cursive;
+        font-family: 'Kalam', cursive;
+
+}
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-self: center;
+}
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-self: center;
+}
+/*input[type=submit] */
+button{
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 16px 0;
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Kalam', cursive;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+button:hover {
+  background-color: #ff8c1a;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.myclass{
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+.myform{
+  text-align: center;
+}
+h1{
+	color: white;
+	background-color: #4CAF50;
+	text-align: center;
+}
+h1:hover{
+	background-color: #ff8c1a;
+  	color:white;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}

@@ -1,0 +1,160 @@
+h1{
+	color: red;
+	text-align: center;
+}
+h2{
+	color: white;
+	background: #ff9900;
+	text-align: center;
+}
+h2:hover{
+	background-color: #ff8c1a;
+  	color: white;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+body{
+	/* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcROTC7V69lDkzLquJ435KPjR3ogX5lPTg7H4g5PBG1X62nsgf-Y&usqp=CAU"); */
+	background-repeat: no-repeat;
+}
+
+html{
+       font-size: 24px;
+       font-family: 'Caveat', cursive;
+		font-family: 'Kalam', cursive;
+
+}
+table {
+    border-collapse: separate;
+    border-spacing: 0 1em;
+    align-self: center;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+	font-family: 'Kalam', cursive;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  left: 40%;
+}
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #ff8c1a;
+}
+
+.button1:hover {
+  background-color: #ff8c1a;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button2 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.button3 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #33cc33;
+}
+
+.button3:hover {
+  background-color: #33cc33;
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.button4 {
+       background-color: white; 
+       color: black; 
+       border: 2px solid #334fcc;
+}
+.button4:hover {
+background-color: #334fcc;
+color: white;
+box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.logout{
+	background-color: white; 
+	color: black; 
+  	border: 2px solid #e600e6;
+  	right: 100%;
+}
+.logout:hover{
+	background-color: #e600e6;
+  	color: white;
+  	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.myTable{
+       text-align: center;
+}
+td{
+       padding-right: 100px;
+}
+#mylogo{
+       height: 300px;
+       width: 300px;
+       float: right;
+}
+
+input[type=text], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-self: center;
+}
+input[type=password], select {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  align-self: center;
+}
+/*input[type=submit] */
+button{
+  width: 10%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 16px 0;
+  font-size: 25px;
+  font-family: 'Caveat', cursive;
+  font-family: 'Kalam', cursive;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 16px;
+}
+
+.myclass{
+  border-radius: 5px;
+  background-color: white;
+  padding: 20px;
+}
+.myform{
+  text-align: center;
+}
