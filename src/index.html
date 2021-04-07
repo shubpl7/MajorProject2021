@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Login Page</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@700&display=swap');
+    </style>
+    <link rel="stylesheet" type="text/css" href="stylings/loginPage.css">
+  </head>
+
+<body>
+
+<h1>VOTER LOGIN PAGE</h1>
+<div class="myclass">
+  <form class="myform">
+    <div class="myclass">
+    <label for="cusId">Aadhar No.</label>
+    <input type="text" id="cusId" name="cusId" placeholder="Your Aadhar No. .." required>
+    </div>
+    <div class="myclass">
+    <label for="password">Password</label>
+    <input type="password" id="password" name="password" placeholder="Your Password.." required>
+  </div>
+  <div class="myclass">
+    <button id="loginButton">Login</button>
+    <button id='SignupButton'>SignUp</button>
+  </div>
+  <div id='myimage'>
+<img src="images/NationalEmblem.png" id='myimage'></div>
+  </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="scripts/loginPage.js"></script>
+</body>
+</html>

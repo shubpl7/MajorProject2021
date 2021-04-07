@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SIGN UP Page</title>
+<style>
+       @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Kalam:wght@700&display=swap');
+</style>
+<link rel="stylesheet" type="text/css" href="stylings/loginPage.css">
+</head>
+
+<body>
+
+<h1>NEW VOTER SIGN UP PAGE</h1>
+<div class="myclass">
+  <form class="myform">
+    <!-- <div class="myclass">
+    <label for="cusId">Customer ID</label>
+    <input type="text" id="cusId" name="cusId" placeholder="Your cusID..">
+    </div> -->
+    <div class="myclass">
+    <label for="cusName">Voter Name</label>
+    <input type="text" id="cusName" name="fname" placeholder="Your first name.." required>
+  </div>
+  <div class="myclass">
+       <label for="password">Choose your Password</label>
+       <input type="password" id="password" name="password" placeholder="Your Password.." required>
+  </div>
+  <div class="myclass">
+    <label for="cusEmail">Voter E-mail</label>
+    <input type="text" id="cusEmail" name="cusEmail" placeholder="Your email Id.." required>
+  </div>
+  <div class="myclass">
+    <button id='SignupButton'>SignUp</button>
+  </div>
+  <div id='image'>
+<img src="images/NationalEmblem.png" id='myimage'></div>
+  </form>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script type="text/javascript" src="scripts/signUp.js"></script>
+
+</body>
+</html>
