@@ -89,7 +89,7 @@ $('#logout').on('click',function(){
                             })
                             .then((willLogin) => {
                                    if (willLogin) {
-                                          location.replace("login.html");
+                                          location.replace("loginPage.html");
                                    }
                             });
                          
